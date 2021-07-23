@@ -9,7 +9,7 @@ const postRoute = require("./routes/posts")
 
 const app = express();
 
-mongoose.connect('mongodb+srv://altamash:altamash@socialapp.yq5am.mongodb.net/social?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true }, () => {
+mongoose.connect('mongodb+srv://********:********@socialapp.yq5am.mongodb.net/social?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true }, () => {
     console.log("Connected to MongoDB");
 });
 
